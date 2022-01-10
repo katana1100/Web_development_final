@@ -3,9 +3,9 @@
 
 <?php
 $host = 'localhost:3306';
-$dbuser ='root';
-$dbpassword = 'Kterlera1508';
-$dbname = 'Final_S07352026';
+$dbuser ='使用者名稱';
+$dbpassword = '使用者密碼';
+$dbname = 's07352026_final';
 $link = mysqli_connect($host,$dbuser,$dbpassword,$dbname);
 if($link){
     mysqli_query($link,'SET NAMES utf8');
